@@ -1,0 +1,28 @@
+.company_info {
+  padding: 10rem 0;
+  background-image: url("../../../assets/bgBody.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+
+  .company_info_content {
+    padding: 60px 0;
+    border-top: 4px solid #edc968;
+    background: #332a49;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+}

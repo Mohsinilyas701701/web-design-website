@@ -1,0 +1,128 @@
+.slide1 {
+  background-image: url("../../../assets/hero1.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide2 {
+  background-image: url("../../../assets/hero2.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide3 {
+  background-image: url("../../../assets/hero3.svg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide4 {
+  background-image: url("../../../assets/hero4.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Light black with 50% opacity */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  color: #fff;
+
+  .overlay_content {
+    margin-left: 10rem;
+    max-width: 60%;
+    text-align: start;
+
+    h1 {
+      font-size: 8rem;
+      font-weight: 400;
+    }
+
+    span {
+      font-weight: bolder;
+      font-size: 8rem;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: 87vh;
+
+  /* Center slide text vertically */
+}
+
+@media screen and (max-width: 767px) {
+  .overlay {
+    .overlay_content {
+      margin-left: 2rem;
+      max-width: 100%;
+
+      h1 {
+        font-size: 4rem;
+        font-weight: 400;
+      }
+
+      span {
+        font-weight: bolder;
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .overlay {
+    .overlay_content {
+      margin-left: 2rem;
+      max-width: 50%;
+
+      h1 {
+        font-size: 6rem;
+        font-weight: 400;
+      }
+
+      span {
+        font-weight: bolder;
+        font-size: 6rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

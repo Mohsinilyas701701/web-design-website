@@ -1,0 +1,17 @@
+.navbar-nav {
+  // background-color: var(--brand-primary);
+  // position: fixed;
+
+  .navbar {
+    .nav-link {
+      font-size: 2rem;
+      margin: 0 2.4rem;
+      color: var(--brand-black);
+
+      &:hover {
+        background-color: var(--brand-black);
+        color: var(--brand-white);
+      }
+    }
+  }
+}

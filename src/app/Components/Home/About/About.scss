@@ -1,0 +1,37 @@
+.about_us {
+  padding: 10rem 0;
+  margin-top: 10rem;
+  background-color: #332a49;
+  color: #fff;
+
+  .sub-heading {
+    font-size: 2.1rem;
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 6rem;
+  }
+  p {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about_us {
+    text-align: center;
+    .sub-heading {
+      font-size: 1.8rem;
+      padding: 1rem;
+    }
+
+    h2 {
+      font-size: 4rem;
+    }
+    p {
+      font-size: 1.6rem;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.Intro {
+  margin: 10rem 0;
+
+  h2 {
+    font-size: 4rem;
+    overflow: hidden;
+  }
+
+  h3 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  p {
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
+  .intro_stats {
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Intro {
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.cta-form {
+  background-color: #322a48;
+  border-top: 4px solid #edc968;
+  padding: 10rem 0;
+  color: #fff;
+  h2 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+
+  .form-control {
+    padding: 10px 20px;
+    font-size: 1.6rem;
+
+    &:focus {
+      border: 1px solid var(--brand-white) !important;
+      box-shadow: none;
+    }
+  }
+}
